@@ -13,11 +13,11 @@ This project is a Google Drive clone, created by following a tutorial. The goal 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/google-drive-clone.git
+    git clone https://github.com/anthonycheitzeberg/drive-clone.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd google-drive-clone
+    cd drive-clone
     ```
 3. Install dependencies:
     ```bash
