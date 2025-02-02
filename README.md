@@ -1,29 +1,37 @@
-# Create T3 App
+# Google Drive Clone
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This project is a Google Drive clone, created by following a tutorial. The goal is to replicate the core functionalities of Google Drive, including file upload, download, and management.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- User authentication
+- File upload and download
+- File management (create, delete, rename)
+- Folder structure
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Installation
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/google-drive-clone.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd google-drive-clone
+    ```
+3. Install dependencies:
+    ```bash
+    pnpm install
+    ```
 
-## Learn More
+## Usage
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+1. Start the development server:
+    ```bash
+    pnpm run dev
+    ```
+2. Open your browser and navigate to `http://localhost:3000`.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Acknowledgements
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Thanks to the tutorial author, reference to the video I followed [here](https://www.youtube.com/watch?v=c-hKSbzooAg&list=WL&index=7&ab_channel=Theo-t3%E2%80%A4gg)
